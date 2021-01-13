@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>VFE-Power: Lite</name>
+	<author>JyeGuru, Oskar Potocki, Sarg Bjornson</author>
+    <packageId>JyeGuru.Lite.VFEPower</packageId>
+	<url></url>
+    <supportedVersions>
+        <li>1.2</li>
+        <li>1.1</li>
+        <li>1.0</li>
+    </supportedVersions>
+	    <incompatibleWith>
+        <li>VanillaExpanded.VFEPower</li>
+    </incompatibleWith>
+
+    <description>Lite version of "Vanilla Furniture Expanded - Power" that does not include the Helixian Gas components. All credit to the original authors.
+</description>
+</ModMetaData>

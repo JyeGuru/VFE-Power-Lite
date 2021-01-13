@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>VanillaExpanded</defName>
+    <label>Vanilla Expanded</label>
+  </ResearchTabDef>
+  <ResearchProjectDef>
+    <defName>VFE_AdvancedBatteries</defName>
+    <label>advanced battery</label>
+    <description>Build spacertech batteries, capable of efficiently storing large amounts of energy.</description>
+    <baseCost>2000</baseCost>
+    <tab>VanillaExpanded</tab>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Batteries</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>4.30</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>VFE_IndustrialGenerators</defName>
+    <label>industrial generators</label>
+    <description>Build industrial-grade generators, capable of storing significantly more fuel and producing higher power.</description>
+    <baseCost>1800</baseCost>
+    <tab>VanillaExpanded</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.55</researchViewY>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>
